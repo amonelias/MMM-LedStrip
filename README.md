@@ -8,7 +8,7 @@ A MagicMirror² module to control the LED Strip WS2801.
 ## Installation
 1. Navigate to the `/modules` folder of you MagicMirror²
 2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-LedStrip.git`
-3. install dependencies using the following command: `pip3 install Adafruit-WS2801`
+3. Install dependencies using the following command: `pip3 install Adafruit-WS2801`
 
 ## Config
 
