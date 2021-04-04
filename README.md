@@ -1,11 +1,15 @@
 # MMM-LedStrip
 A MagicMirror² module to control the LED Strip WS2801. 
 
-# Dependencies
+## Dependencies
 
 - [Adafruit_WS2801](https://pypi.org/project/Adafruit-WS2801/)
 
-# Config
+## Installation
+1. Navigate to the `/modules` folder of you MagicMirror²
+2. Clone this repository using the following command: `git clone https://github.com/amonelias/MMM-LedStrip.git`
+
+## Config
 
 <table>
   <thead>
@@ -29,3 +33,18 @@ A MagicMirror² module to control the LED Strip WS2801.
     </tr>
   </tbody>
 </table>
+
+To use this module, add it to the modules array in the `config/config.js` file:
+```javascript
+  {
+    module: 'MMM-LedStrip',
+    position: 'top_right', // any possible region or none
+    config: {
+      leds: 1,
+      brightness: 0.5,
+    },
+  },
+```
+
+## Update
+Navigate to the folder of the module in the `/modules` folder and get the latest version using the command `git pull`.
