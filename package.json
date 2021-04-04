@@ -1,0 +1,12 @@
+{
+    "name": "MMM-LedStrip",
+    "version": "1.0.0",
+    "description": "A MagicMirror² module to control the Led Strip WS2801.",
+    "main": "MMM-LedStrip.js",
+    "author": "amonelias",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/amonelias/MMM-LedStrip"
+      }
+  }
