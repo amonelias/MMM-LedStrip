@@ -1,5 +1,5 @@
 # MMM-LedStrip
-A MagicMirror² module to control the LED Strip WS2801. 
+A MagicMirror² module to control the LED Strip WS2801 and display the output.
 
 ## Dependencies
 
